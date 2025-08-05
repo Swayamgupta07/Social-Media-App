@@ -1,5 +1,6 @@
 
-const GEMINI_API_KEY = 'AIzaSyBKut3K_8lpVZWdC4jDSE_vIyb4yBaiZNE';
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+;
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
 // Rate limiting
